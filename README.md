@@ -15,7 +15,7 @@
 <br><br>
 
 # 1. Prerequisites
-### ● Ceres solver and Eigen : Mandatory for VINS
+### ● Ceres solver and Eigen (mandatory)
 + Eigen from [here](http://eigen.tuxfamily.org/index.php?title=Main_Page)
 ```
 $ wget -O eigen.zip http://bitbucket.org/eigen/eigen/get/3.3.7.zip #check version
