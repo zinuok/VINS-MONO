@@ -48,7 +48,7 @@ $ make install
 ```
 <br><br>
 
-## 2. Installation
+## 2. Install
 + git clone and build from source
 ```
 $ cd ~/catkin_ws/src
