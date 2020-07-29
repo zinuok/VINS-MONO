@@ -5,7 +5,7 @@
 + version info
     + Ubuntu: 18.04 
     + ROS: Melodic 
-+ github link: [here](https://github.com/HKUST-Aerial-Robotics/VINS-Mono)
++ github link: [HKUST-Aerial-Robotics](https://github.com/HKUST-Aerial-Robotics/VINS-Mono)
 <br>
 
 # Index
