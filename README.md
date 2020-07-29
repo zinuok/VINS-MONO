@@ -63,7 +63,7 @@ $ source ~/catkin_ws/devel/setup.bash
 <br><br>
 
 ## 4. Run
-#### ● you have to get an calibration data using [kalibr](https://github.com/zinuok/kalibr)
+#### ● you have to get a calibration data using [kalibr](https://github.com/zinuok/kalibr)
 ```
 $ roslaunch realsense2_camera rs_camera.launch
 $ roslaunch mavros px4.launch
