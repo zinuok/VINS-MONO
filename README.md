@@ -16,11 +16,11 @@
 
 # Index
 ### 1. Prerequisites
-####    &nbsp;● Eigen
-####    ● Ceres solver
+####    &nbsp;&nbsp;&nbsp;&nbsp;● Eigen
+####    &nbsp;&nbsp;&nbsp;&nbsp;● Ceres solver
 ### 2. Installation
 ### 3. TX2, NX
-####    ● Actually, there is no installation difference between TX2 and NX
+####    &nbsp;&nbsp;&nbsp;&nbsp;● Actually, there is no installation difference between TX2 and NX
 ### 4. Run
 <br><br>
 
