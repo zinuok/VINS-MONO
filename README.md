@@ -1,5 +1,5 @@
 # VINS-MONO
-+ VINS-Mono setup for following nvidia board
++ VINS-Mono setup for following nvidia boards
     + jetson TX2 - Jetpack 4.2
     + jetson Xavier NX - Jetpack 4.4
 + version info
