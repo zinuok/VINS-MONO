@@ -5,9 +5,11 @@
     + jetson Xavier NX - Jetpack 4.4
     + realsense D435i (color, infra1, infra2)
     + pixhawk4 mini
+    <br>
 + **software setup**
     + Ubuntu: 18.04 
     + ROS: Melodic 
+    <br>
 + **github link**: [HKUST-Aerial-Robotics](https://github.com/HKUST-Aerial-Robotics/VINS-Mono)
 ***
 <br>
