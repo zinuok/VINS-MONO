@@ -1,5 +1,7 @@
 # VINS-MONO
-+ VINS-Mono setup for different nvidia board: jetson TX2, jetson Xavier NX
++ VINS-Mono setup for following nvidia board
+    + jetson TX2 - Jetpack 4.2
+    + jetson Xavier NX - Jetpack 4.4
 + version info
     + Ubuntu: 18.04 
     + ROS: Melodic 
