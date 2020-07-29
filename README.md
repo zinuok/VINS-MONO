@@ -1,8 +1,10 @@
 # VINS-MONO
-+ VINS-MONO setup for following nvidia boards
++ hardware setup for following nvidia boards
     + jetson TX2 - Jetpack 4.2
     + jetson Xavier NX - Jetpack 4.4
-+ version info
+    + realsense D435i (color, infra1, infra2)
+    + pixhawk4 mini
++ software version info
     + Ubuntu: 18.04 
     + ROS: Melodic 
 + github link: [HKUST-Aerial-Robotics](https://github.com/HKUST-Aerial-Robotics/VINS-Mono)
@@ -15,6 +17,7 @@
 ### 2. Installation
 ### 3. TX2, NX
 ####    ● Actually, there is no installation difference between TX2 and NX
+### 4. Run
 <br><br>
 
 ## 1. Prerequisites
@@ -53,4 +56,15 @@ $ source ~/catkin_ws/devel/setup.bash
 
 ## 3. TX2, NX
 #### ● Actually, there is no installation difference between TX2 and NX
+<br><br>
+
+## 4. Run
+#### ● you have to get an calibration data using [kalibr](https://github.com/zinuok/kalibr)
+#### ● 
+```
+$ roslaunch realsense2_camera rs_camera.launch
+$ roslaunch mavros px4.launch
+$ roslaunch vins_estimator realsense_color.launch
+$ roslaunch vins_estimator vins_rviz.launch
+```
 
