@@ -27,10 +27,11 @@
 ## 1. Prerequisites
 ### ● Eigen
 + ~Eigen from [here](http://eigen.tuxfamily.org/index.php?title=Main_Page)~
+Above link is not avaiable (2020.09.03) => download eigen-3.3.7.zip from [here](http://eigen.tuxfamily.org/index.php?title=Main_Page)
 ```
 $ wget -O eigen.zip http://bitbucket.org/eigen/eigen/get/3.3.7.zip #check version
-$ unzip eigen.zip
-$ cd ~/eigen && mkdir build && build
+$ unzip eigen-3.3.7.zip
+$ cd ~/eigen-3.3.7 && mkdir build && build
 $ cmake ../ && sudo make install
 ```
 ### ● Ceres solver
