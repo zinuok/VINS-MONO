@@ -49,7 +49,7 @@ $ cmake -DEXPORT_BUILD_DIR=ON \
         ../
 $ make -j8 # 8 : number of cores
 $ make test
-$ make install
+$ sudo make install
 ```
 
 ### ● cv_bridge
