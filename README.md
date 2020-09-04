@@ -30,7 +30,7 @@
 + ~Eigen from [here](http://eigen.tuxfamily.org/index.php?title=Main_Page)~ 
 => This link is not avaiable (2020.09.03). Download eigen-3.3.7.zip from [here](http://eigen.tuxfamily.org/index.php?title=Main_Page)
 ```
-$ wget -O eigen.zip http://bitbucket.org/eigen/eigen/get/3.3.7.zip #check version
+~$ wget -O eigen.zip http://bitbucket.org/eigen/eigen/get/3.3.7.zip #check version~
 $ unzip eigen-3.3.7.zip
 $ cd ~/eigen-3.3.7 && mkdir build && build
 $ cmake ../ && sudo make install
