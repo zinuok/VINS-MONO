@@ -49,6 +49,10 @@ $ make -j8 # 8 : number of cores
 $ make test
 $ make install
 ```
+
+### ● cv_bridge
++ if you built OpenCV manually, you should also build 'cv_bridge' manually from source.
++ Download from proper branch in [here](https://github.com/ros-perception/vision_opencv/tree/melodic) according to your ROS version
 <br><br>
 
 ## 2. Install
