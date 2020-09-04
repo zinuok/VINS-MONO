@@ -45,7 +45,7 @@ $ tar zxf ceres-solver-1.14.0.tar.gz
 $ cd ceres-solver-1.14.0
 $ mkdir build && cd build
 $ cmake -DEXPORT_BUILD_DIR=ON \
-        -DCMAKE_INSTALL_PREFIX=/usr/local/include \
+        -DCMAKE_INSTALL_PREFIX=/usr/local \
         ../
 $ make -j8 # 8 : number of cores
 $ make test
@@ -69,17 +69,6 @@ $ git clone https://github.com/HKUST-Aerial-Robotics/VINS-Mono.git
 $ cd ../ && catkin build -DCMAKE_BUILDTYPE=Release -j3
 $ source ~/catkin_ws/devel/setup.bash
 ```
-
-+ Trouble shooting
-++ ceres/rotation.h: No such file or directory
-```
-$ sudo apt install -y libceres-dev
-```
-~or add followings into ~/VINS-Mono/feature_tracker/CMakeLists.txt~
-<br>
-~find_package(Ceres REQUIRED)~<br>
-~include_directories(${CERES_INCLUDE_DIRS})~<br>
-<br><br>
 
 ## 3. Jetson Boards
 #### ● Actually, no installation difference among TX2, Xavier, and NX
