@@ -10,6 +10,7 @@
 + **software setup**
     + Ubuntu: 18.04 
     + ROS: Melodic 
+    + OpenCV 3.4.1
     <br>
 + **github link**: [HKUST-Aerial-Robotics](https://github.com/HKUST-Aerial-Robotics/VINS-Mono)
 ***
