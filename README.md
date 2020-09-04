@@ -74,8 +74,9 @@ $ source ~/catkin_ws/devel/setup.bash
 $ sudo apt install -y libceres-dev
 ```
 ~or add followings into ~/VINS-Mono/feature_tracker/CMakeLists.txt~
-~find_package(Ceres REQUIRED)~
-~include_directories(${CERES_INCLUDE_DIRS})~
+<br>
+~find_package(Ceres REQUIRED)~<br>
+~include_directories(${CERES_INCLUDE_DIRS})~<br>
 <br><br>
 
 ## 3. Jetson Boards
