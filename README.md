@@ -20,7 +20,7 @@
 ####    &nbsp;&nbsp;&nbsp;&nbsp;● Eigen
 ####    &nbsp;&nbsp;&nbsp;&nbsp;● Ceres solver
 ### 2. Install
-### 3. TX2, NX
+### 3. Jetson Boards
 ####    &nbsp;&nbsp;&nbsp;&nbsp;● Actually, there is no installation difference among TX2, Xavier, and NX
 ### 4. Run
 <br><br>
@@ -60,7 +60,7 @@ $ source ~/catkin_ws/devel/setup.bash
 ```
 <br><br>
 
-## 3. TX2, NX
+## 3. Jetson Boards
 #### ● Actually, no installation difference among TX2, Xavier, and NX
 <br><br>
 
