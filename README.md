@@ -52,7 +52,11 @@ $ make install
 
 ### ● cv_bridge
 + if you built OpenCV manually, you should also build 'cv_bridge' manually from source.
-+ Download from proper branch in [here](https://github.com/ros-perception/vision_opencv/tree/melodic) according to your ROS version
++ Download from proper branch in [here](https://github.com/ros-perception/vision_opencv/tree/melodic) according to your ROS version. For example,
+```
+$ cd ~/catkin_ws/src
+$ git clone -b melodic https://github.com/ros-perception/vision_opencv.git
+```
 <br><br>
 
 ## 2. Install
