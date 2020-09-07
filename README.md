@@ -48,7 +48,7 @@ $ cmake -DEXPORT_BUILD_DIR=ON \
         -DCMAKE_INSTALL_PREFIX=/usr/local \
         ../
 $ make -j $(nproc) # number of cores
-$ make test
+$ make test -j $(nproc)
 $ sudo make install -j $(nproc)
 ```
 
