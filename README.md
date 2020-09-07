@@ -34,7 +34,7 @@
 $ wget -O eigen.zip http://bitbucket.org/eigen/eigen/get/3.3.7.zip # <= do not download from this. 
 $ unzip eigen-3.3.7.zip
 $ cd ~/eigen-3.3.7 && mkdir build && build
-$ cmake ../ && sudo make install
+$ cmake ../ && sudo make install -j $(nproc)
 ```
 ### ● Ceres solver
 + Ceres solver from [here](http://ceres-solver.org/installation.html)
@@ -47,9 +47,9 @@ $ mkdir build && cd build
 $ cmake -DEXPORT_BUILD_DIR=ON \
         -DCMAKE_INSTALL_PREFIX=/usr/local \
         ../
-$ make -j8 # 8 : number of cores
+$ make -j $(nproc) # number of cores
 $ make test
-$ sudo make install
+$ sudo make install -j $(nproc)
 ```
 
 ### ● cv_bridge
@@ -66,7 +66,7 @@ $ git clone -b melodic https://github.com/ros-perception/vision_opencv.git
 ```
 $ cd ~/catkin_ws/src
 $ git clone https://github.com/HKUST-Aerial-Robotics/VINS-Mono.git
-$ cd ../ && catkin build -DCMAKE_BUILDTYPE=Release -j3
+$ cd ../ && catkin build -DCMAKE_BUILDTYPE=Release -j $(nproc)
 $ source ~/catkin_ws/devel/setup.bash
 ```
 
