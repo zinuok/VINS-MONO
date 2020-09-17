@@ -28,10 +28,9 @@
 
 ## 1. Prerequisites
 ### ● Eigen
-+ ~Eigen from [here](http://eigen.tuxfamily.org/index.php?title=Main_Page)~ 
-=> This link is not avaiable (2020.09.03). Download eigen-3.3.7.zip from [here](http://eigen.tuxfamily.org/index.php?title=Main_Page)
++ ~Eigen from [here](http://eigen.tuxfamily.org/index.php?title=Main_Page)
 ```
-$ wget -O eigen.zip http://bitbucket.org/eigen/eigen/get/3.3.7.zip # <= do not download from this. 
+$ wget https://gitlab.com/libeigen/eigen/-/archive/3.3.7/eigen-3.3.7.zip
 $ unzip eigen-3.3.7.zip
 $ cd ~/eigen-3.3.7 && mkdir build && build
 $ cmake ../ && sudo make install -j $(nproc)
